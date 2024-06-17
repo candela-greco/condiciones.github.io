@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a1bd5d6a81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/indexestilo.css">
+    <link rel="stylesheet" href="assets/css/estilo2.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">
+            <span><p>JavaScript</p></span>
+            </a>
+        </div>
+    </nav>
+    <header>
+        <div class="presentacion">
+            <h1>En este segundo ejercicio van a poder seleccionar hasta 10 stickers entre los 3 modelos que hay</h1>
+        </div>
+    </header>
+    <main>
+        <h1>Elegi los que quieras (solo 10 unidades por persona)</h1>
+        <div class="contenedorFlex">
+            <div class="cardSticker">
+                <img src="assets/imgs/sticker1.jpg" alt="Foto sticker rana">
+                <input id="sticker1" value="" type="number"/>
+            </div>
+            <div class="cardSticker">
+                <img src="assets/imgs/sticker2.jpg" alt="Foto sticker kitty">
+                <input id="sticker2" type="number">
+            </div>
+            <div class="cardSticker">
+                <img src="assets/imgs/sticker3.jpg" alt="Foto stikcer pato">
+                <input id="sticker3" type="number">
+            </div>
+        </div>
+        <button id="agregar" onclick="verificar()">Agregar</button>
+        <p id="respuesta"></p>
+    </main>
+    <footer class="pie-de-pagina">
+        <a href="https://www.facebook.com/?locale=es_LA"><i  class="fa-brands fa-square-facebook fa-xl"></i></a></i>
+        <a href="https://www.instagram.com/" ><i class="fa-brands fa-instagram fa-xl"></i></a>
+        <p> &copy; Todos los derechos reservados.</p>
+    </footer>
+    <script src="./assets/js/ej2.js"></script>
+</body>
+</html>

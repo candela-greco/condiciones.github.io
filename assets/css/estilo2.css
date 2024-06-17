@@ -1,0 +1,23 @@
+.presentacion h1 {
+    width: 40%;
+}
+.contenedorFlex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.cardSticker img {
+    width: 150px;
+    padding: 15px;
+}
+.cardSticker {
+    display: flex;
+    flex-direction: column;
+}
+.cardSticker input {
+    align-self: center;
+    width: 100px;
+}
+#respuesta {
+    color: #fff;
+}

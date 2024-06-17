@@ -1,0 +1,13 @@
+.presentacion h1 {
+    width: 40%;
+}
+main {
+    color: #fff;
+}
+main i {
+    padding: 50px;
+}
+main img {
+    width: 150px;
+    border-radius: 50%;
+}

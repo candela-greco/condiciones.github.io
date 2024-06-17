@@ -1,0 +1,24 @@
+.presentacion h1 {
+    width: 40%;
+}
+.presentacion p {
+    width: 50%;
+}
+main {
+    padding-bottom: 300px;
+}
+h2 {
+    color: #fff;
+    padding-bottom: 70px;
+}
+.password {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+select {
+    padding: 20px;
+}
+#respuesta {
+    color: #fff;
+}
