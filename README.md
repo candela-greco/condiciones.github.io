@@ -1,1 +1,1 @@
-# condiciones.github.io
+# https://candela-greco.github.io/condiciones.github.io/
